@@ -1,0 +1,45 @@
+/*
+Syntax error: Undefined mixin 'all-my-icons-sprites'.
+        on line 2 of /var/www/beetleworx/public_html/assets/images/enemy/walkcycles/Left/src/bla.scss, in `all-my-icons-sprites'
+        from line 2 of /var/www/beetleworx/public_html/assets/images/enemy/walkcycles/Left/src/bla.scss
+
+1: /var/www/beetleworx/public_html/assets/images/enemy/walkcycles/Left/src/bla.scss
+
+Backtrace:
+/var/www/beetleworx/public_html/assets/images/enemy/walkcycles/Left/src/bla.scss:2:in `all-my-icons-sprites'
+/var/www/beetleworx/public_html/assets/images/enemy/walkcycles/Left/src/bla.scss:2
+/usr/lib/ruby/1.8/sass/tree/mixin_node.rb:74:in `perform!'
+/usr/lib/ruby/1.8/sass/tree/node.rb:301:in `_perform'
+/usr/lib/ruby/1.8/sass/tree/node.rb:209:in `perform'
+/usr/lib/ruby/1.8/sass/tree/node.rb:322:in `perform_children'
+/usr/lib/ruby/1.8/sass/tree/node.rb:322:in `map'
+/usr/lib/ruby/1.8/sass/tree/node.rb:322:in `perform_children'
+/usr/lib/ruby/1.8/sass/tree/node.rb:313:in `perform!'
+/usr/lib/ruby/1.8/sass/tree/root_node.rb:59:in `perform!'
+/usr/lib/ruby/1.8/sass/tree/node.rb:301:in `_perform'
+/usr/lib/ruby/1.8/sass/tree/node.rb:209:in `perform'
+/usr/lib/ruby/1.8/sass/tree/root_node.rb:37:in `perform'
+/usr/lib/ruby/1.8/sass/tree/root_node.rb:29:in `render'
+/usr/lib/ruby/1.8/sass/engine.rb:196:in `_render'
+/usr/lib/ruby/1.8/sass/engine.rb:168:in `render'
+/usr/lib/ruby/1.8/haml/util.rb:251:in `silence_haml_warnings'
+/usr/lib/ruby/1.8/sass/engine.rb:168:in `render'
+/usr/lib/ruby/1.8/compass/compiler.rb:103:in `compile'
+/usr/lib/ruby/1.8/compass/logger.rb:43:in `red'
+/usr/lib/ruby/1.8/compass/compiler.rb:102:in `compile'
+/usr/lib/ruby/1.8/compass/compiler.rb:93:in `compile_if_required'
+/usr/lib/ruby/1.8/compass/compiler.rb:84:in `run'
+/usr/lib/ruby/1.8/compass/compiler.rb:82:in `each'
+/usr/lib/ruby/1.8/compass/compiler.rb:82:in `run'
+/usr/lib/ruby/1.8/compass/commands/watch_project.rb:92:in `recompile'
+/usr/lib/ruby/1.8/compass/commands/watch_project.rb:40:in `perform'
+/usr/lib/ruby/1.8/compass/commands/base.rb:18:in `execute'
+/usr/lib/ruby/1.8/compass/commands/project_base.rb:19:in `execute'
+/usr/lib/ruby/1.8/compass/exec/sub_command_ui.rb:38:in `perform!'
+/usr/lib/ruby/1.8/compass/exec/sub_command_ui.rb:15:in `run!'
+/usr/bin/compass:26
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Undefined mixin 'all-my-icons-sprites'.\A         on line 2 of /var/www/beetleworx/public_html/assets/images/enemy/walkcycles/Left/src/bla.scss, in `all-my-icons-sprites'\A         from line 2 of /var/www/beetleworx/public_html/assets/images/enemy/walkcycles/Left/src/bla.scss\A \A 1: /var/www/beetleworx/public_html/assets/images/enemy/walkcycles/Left/src/bla.scss"; }

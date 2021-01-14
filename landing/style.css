@@ -1,0 +1,57 @@
+html,body,div,a,img{
+	margin : 0;
+	padding : 0;
+	outline : none;
+	border : 0;
+	text-decoration: none;
+}
+body{
+	background-color : #000;
+}
+#wrapper{
+	min-width : 800px;
+	position : relative;
+}
+#bg{
+	width : 100%;
+	height : auto;
+}
+#bookmarklet{
+	width : 12%;
+	height : auto;
+	position : absolute;
+	z-index : 1;
+	top : 47%;
+	left : 44.5%;
+	cursor : pointer;
+}
+.link img{
+	position : absolute;
+	width : 7%;
+	height : auto;
+	left : 70%;
+	left : 69.5%;
+	top : 3%;
+	cursor : pointer;
+}
+.link:hover img{
+	background : rgba(0,0,0,0.1);
+}
+#tw img{
+	top : 7%;
+	top : 7.5%;
+}
+.smooth-resize{
+	-webkit-transition : all ease-in-out 400ms;
+	-moz-transition : all ease-in-out 400ms;
+	-o-transition : all ease-in-out 400ms;
+	-ms-transition : all ease-in-out 400ms;
+	transition : all ease-in-out 400ms;
+}
+.no-user-select {
+	-webkit-user-select : none;
+	-moz-user-select : none;
+	-o-user-select : none;
+	-ms-user-select : none;
+	user-select : none;
+}

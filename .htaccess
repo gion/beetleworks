@@ -1,0 +1,8 @@
+#remove php extension
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule beetleworx\.js beetleworx.php [NC,L]
+RewriteRule assets/images/enemy/explosion/(.+?)\.gif assets/images/enemy/explosion/explosion_items.gif [NC,L]
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
