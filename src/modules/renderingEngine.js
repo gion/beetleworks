@@ -1,10 +1,5 @@
 (function(global,undefined){
 	var bw = global.bw || {};
-	
-	
-
-
-
 	var RenderingEngine = function(node,o){
 		this.stage = bw.raphael(node,o.width,o.height);
 		this.node = node;

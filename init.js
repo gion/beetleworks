@@ -18,19 +18,11 @@
 		// this should link to something like "beetleworx.com" after dev : 
 		// host = http://beetleworx.com
 		host = (function(){
-			
-			// pd
-			if(/projects-directory/.test(document.location))
-				bw.host = 'http://beetleworx.projects-directory.com/';
-			else if(/127.0.0.1/.test(document.location))
-				// d ip
-				bw.host = 'http://127.0.0.1:8080/';
-			else if(/192\.168\.1\.133/.test(document.location))
-				// bog ip
-				bw.host = 'http://192.168.1.133/B/';
+			if(/(127.0.0.1)|(localhost)/.test(document.location))
+				bw.host = 'http://localhost:8080/';
 			else
-				// localhost
-				bw.host = 'http://beetleworx.projects-directory.com/';
+				bw.host = 'https://gion.github.io/beetleworks/';
+
 			return bw.host;
 		})(),
 
